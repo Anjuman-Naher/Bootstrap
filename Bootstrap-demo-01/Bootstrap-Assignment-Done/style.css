@@ -1,0 +1,65 @@
+/* General CSS  */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: san-serif;
+}
+
+/* Header Section */
+.header-section {
+	background: #F7FDFE;
+}
+.menubar li {
+	margin-left: 20px;
+}
+.menubar li a {
+	color: #9A9CAE;
+	font-family: sans-serif;
+	font-size: 20px;
+/*	border: 1px solid red;*/
+	padding: 5px 12px;
+}
+.menubar li a:hover {
+	background: #0EBFDD;
+	border-radius: 4px;
+	color: #fff;
+}
+/* About Sectin */
+.about-section h1 {
+	color: #0EBFDD;
+	font-family: sans-serif;
+}
+/* Team Section */
+.team-section {
+	background: #0EBFDD;
+}
+.team-section h1, h6 {
+	color: #fff;
+	font-family: sans-serif;
+}
+/* footer section */
+.footer-section {
+	background: #45494D;
+}
+.footer-section .footer-top-nav ul li a,
+.footer-section .footer-top-social-link ul li a,
+.footer-section .copyright-text,
+.footer-section .footer-nav ul li a {
+	color: #9A9CAE;
+}
+
+.footer-section .footer-top-nav ul li a:hover,
+.footer-section .footer-top-social-link ul li a:hover,
+.footer-section .copyright-text:hover,
+.footer-section .footer-nav ul li a:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+.footer-section .row:first-child::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #9A9CAE;
+}
